@@ -11,10 +11,8 @@ Auf Datensätzen mit wenig heterogenen Gruppen ist 'Prop7' ohne Erweiterung geei
 Die Einstellung von SUB_CLUSTER_SIZE ist standardmäßig auf 20. Sie bestimmt, in wieviele Untergruppen eine Gruppe gespalten wird.
 Ist die SUB_CLUSTER_SIZE niedrig eingestellt spart dies Rechenzeit. Eine hohe Einstellung von 100 zum Beispiel kann zu besseren Ergebnissen führen.
 
-Zusätzlich kann mittels COMPARE_MODE der Modus für eine Metrik geändert werden. Für 'Prop8' und 'Het5' ist dies wichtig.
-
-COMPARE_MODE = distance -> COMPARE_DISTANCE = {euclidean, hamming}
-
+Zusätzlich kann mittels COMPARE_MODE der Modus für eine Metrik geändert werden. Für 'Prop8' und 'Het5' ist dies wichtig.<br/>
+COMPARE_MODE = distance -> COMPARE_DISTANCE = {euclidean, hamming}<br/>
 COMPARE_MODE = similarity -> COMAPRE_SIMILARITY = {matching, jaccard, dice, sneath, dot, cosine}
 
 Falls der Datensatz sehr klein ist, kann die Anzahl an Nachbarn mit NEIGHBORS angepasst werden (Standard ist 5).
